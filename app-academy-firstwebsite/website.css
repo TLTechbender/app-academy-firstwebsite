@@ -1,0 +1,144 @@
+.heading1-container{
+   display: flex; 
+justify-content: space-between;
+margin-bottom:8px;
+}
+.main-heading-1{
+       border: thick solid black;
+padding-right: 30px;
+padding-left:30px;
+   }
+.main-heading-2{
+border:thick solid black;
+padding-right: 30px;
+padding-left:30px;
+}
+
+
+.heading2-container{
+    display:flex;
+    justify-content:space-around;
+    border:thick solid black;
+    border-right:none;
+    border-left:none;
+    margin-bottom:18px;
+} 
+
+.description-container{
+    
+    margin-left:230px;
+    
+  /* In this place area I have somehow come to the conclusion that I cannot use flex display: for a border itself, cos the border dosen't seem to respond to flex but the element therin is responding to it and clearly that ain't want I want, But I'm certain that there is a workaround for this that involves getting the screen  size of the screen it's being viewed on and using it to set a margin and in that way it would become responsive to changes in screen orientation or maybe it can
+   * be fixed with JavaScript, I dunno🤷🏾‍♂️
+     */
+    border:thick solid black;
+    width: 900px;
+   padding-right: 50px; 
+margin-bottom: 12px;
+}
+.Lorem-1-size{
+    width:650px;
+}
+    .align{ 
+       display:flex;
+      margin-bottom:12px; 
+       /*I'm running into way too many alignment issues, One day I find the solution*/ 
+    }
+    .by-who{
+     
+    margin-left:245px;
+    
+}
+
+.twitter-icon{
+   width: 60px;
+   height: 60px;
+margin-left: 595px;
+margin-right: 10px;
+}
+.github-icon{         /*In this area because I be grouping margins in the same div, whatever I do to any margin affects the others in the same div*/
+    width:60px;
+    height:60px;
+margin-right: 10px;
+
+}
+.center-image{
+   display: flex;
+   justify-content: center;
+   
+} 
+.main-image{
+    width: 1050px;
+    height:270px;
+    margin-left: 205px;   
+}
+.jargons-1-topic{
+    margin-left: 230px;
+    width:1000px;
+    font-size: 26.8px;
+}
+.jargons-2-topic{
+margin-left: 230px;
+width:1000px;
+font-size:26.8px; /*wow, I'm learning a lot ooo, I don't really know how most of these css properties work ooo!
+Cos, I run into problems with width and padding and I saw that these things feed of each other, Damn fella */
+}
+.jargons-1{
+    display:flex;
+    justify-content:center;
+    margin-left:225px;
+width:800px;
+padding-left:30px;
+font-size: 26.8px;
+} 
+.jargons-2{
+    display:flex;
+    justify-content:center;
+    margin-left:225px;
+width:800px;
+padding-left:30px;
+font-size: 26.8px;
+}
+.box{
+ 
+ margin-left: 225px;
+margin-right: 215px; 
+ display:flex; 
+/*wait whaat!!!!!, how was i just able to reduce the size of the flex container here?*/
+border: thick solid black;
+margin-bottom: 12px;
+}
+.box-2{
+    margin-left:10px;
+   width: 420px;
+}
+.box-1{
+    width:420px;
+}
+.font-1{
+font-size: 21.8px;
+text-decoration: none;
+ 
+}
+.topic{
+    font-size:23.8px ;
+   margin-left: 35px; 
+}
+
+.last-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.part-2{
+    display: flex;
+   
+}
+.last-image{
+  border: thick solid black; 
+    
+}
+.last-text{
+    margin-right: 10px;
+}
