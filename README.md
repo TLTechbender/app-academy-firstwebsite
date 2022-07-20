@@ -1,1 +1,3 @@
 # app-academy-firstwebsite
+This is as disturbing as it  gets it's taking me way too long to get this stuff done.......
+Also the name of the project is kinda wrong, its actually supposed to be the app-academy spec project!!! oops!1
